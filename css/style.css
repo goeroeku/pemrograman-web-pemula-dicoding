@@ -1,0 +1,95 @@
+header {
+  background-color: #2f3a3e;
+  padding: 10px;
+}
+
+header .container,
+nav .container,
+main .container {
+  display: flex;
+  margin: 32px auto;
+  max-width: 1024px;
+}
+
+header div {
+  height: 125px;
+}
+
+div.foto {
+  text-align: center;
+  line-height: 125px;
+}
+
+div.basic-info {
+  color: white;
+}
+
+.basic-info span {
+  margin-right: 16px;
+}
+
+img.foto {
+  border-radius: 50%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+nav {
+  background-color: darkorange;
+}
+
+nav .container {
+  margin-top: 0;
+}
+
+nav ul {
+  padding: 0 8px;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 64px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: medium;
+}
+
+.container .title {
+  text-align: center;
+}
+
+.thumbnail {
+  background-size: cover;
+  height: 200px;
+  margin-bottom: 16px;
+}
+
+.thumbnail-little {
+  background-size: cover;
+  height: 100px;
+  margin-bottom: 16px;
+}
+
+.teamwork-image {
+  background: url('../img/teamwork.png') center center;
+}
+
+.communication-image {
+  background: url('../img/communication.png') center center;
+}
+
+.creative-image {
+  background: url('../img/creative.jpg') center center;
+}
+
+footer {
+  text-align: center;
+  background-color: #2f3a3e;
+  height: 64px;
+  line-height: 64px;
+  vertical-align: middle;
+  color: whitesmoke;
+}
